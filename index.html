@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>smartBook — Writer & Translator</title>
+  <meta name="description" content="smartBook — professional writing and translation services. Portfolio and contact." />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+<nav>
+        <a class="brand" href="index.html">SMART BOOK</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">☰</button>
+        <div id="nav-links" class="nav-links">
+          <a href="services.html" data-i18n="nav.services">Services</a>
+          <a href="portfolio.html" data-i18n="nav.portfolio">Portfolio</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </div>
+        
+        <div class="nav-theme">
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+        </div>
+
+        <div class="nav-lang">
+          <label for="lang" style="font-size:.9rem;color:var(--muted);margin-right:.5rem" data-i18n="nav.language">Lang</label>
+          <select id="lang" aria-label="Language selector">
+            <option value="en">English</option>
+            <option value="ar">العربية</option>
+            <option value="fr">Français</option>
+            <option value="es">Español</option>
+          </select>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top: 120px">
+      <section class="hero" id="about">
+          <h1 data-i18n="intro.title">Hello — I'm a writer & translator</h1>
+          <p class="lead vision" data-i18n="intro.vision">Project Vision : I developed a multilingual content strategy for a business blog, producing and editing articles in Arabic, English, Spanish, and French. My work included creating professional and business-focused writing, proofreading for accuracy, and adapting content to suit diverse audiences.</p>
+          <p><a class="cta" href="#contact" data-i18n="intro.cta">Get in touch</a></p>
+      </section>
+
+      <div id="key-deliverables" style="margin-top:1.5rem">
+          <strong data-i18n="intro.keyDeliverables">Key Deliverables</strong>
+          <ul>
+              <li data-i18n="deliverables.articles">40+ Multilingual Articles</li>
+              <li data-i18n="deliverables.styleGuide">Style Guide for Global Tone</li>
+              <li data-i18n="deliverables.seo">SEO Strategy per Region</li>
+              <li data-i18n="deliverables.workflow">Translation Workflow Optimization</li>
+          </ul>
+      </div>
+
+      <section id="contact">
+          <h2 style="margin-top:1.25rem" data-i18n="contact.title">Contact</h2>
+      <p class="lead" data-i18n="contact.email">Email: <a href="mailto:you@example.com">you@example.com</a></p>
+      <p class="lead" data-i18n="contact.phone">Phone: <a href="tel:+962786503418">+962786503418</a></p>
+      </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <small data-i18n="footer.copy">© smartBook — Writer & Translator.</small>
+    </div>
+  </footer>
+
+  <script src="scripts\index.js"></script>
+</body>
+</html>

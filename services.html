@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>smartBook — Services</title>
+  <meta name="description" content="Services offered by smartBook — writing, translation and editing." />
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+        <nav>
+            <a class="brand" href="index.html">SMART BOOK</a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">🌙</button>
+            <div id="nav-links" class="nav-links">
+                <a href="services.html" data-i18n="nav.services">Services</a>
+                <a href="portfolio.html" data-i18n="nav.portfolio">Portfolio</a>
+                <a href="#contact" data-i18n="nav.contact">Contact</a>
+            </div>
+
+            <div class="nav-theme">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">☀️</button>
+            </div>
+
+            <div class="nav-lang">
+                <label for="lang" style="font-size:.9rem;color:var(--muted);margin-right:.5rem" data-i18n="nav.language">Lang</label>
+                <select id="lang" aria-label="Language selector">
+                    <option value="en">English</option>
+                    <option value="ar">العربية</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                </select>
+            </div>
+        </nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top: 120px">
+      <section class="hero">
+          <h1 data-i18n="services.pageTitle">Services</h1>
+          <p class="lead" data-i18n="services.lead">Below are the core skills and subject categories I work with. Each item includes a brief description to help you understand the service.</p>
+      </section>
+
+      <section class="grid">
+          <div class="card">
+              <h2 data-i18n="skills.title">Skills</h2>
+              <ul>
+                  <li>
+                      <strong data-i18n="skill.contentWriting.title">Content writing</strong>
+                      <p class="lead" data-i18n="skill.contentWriting.lead">Creating clear, engaging articles and web content tailored to your audience and goals — from blog posts to long-form guides.</p>
+                  </li>
+                  <li>
+                      <strong data-i18n="skill.editing.title">Editing & proofreading services</strong>
+                      <p class="lead" data-i18n="skill.editing.lead">Line-by-line editing and proofreading to improve clarity, fix grammar and ensure consistency while preserving your voice.</p>
+                  </li>
+                  <li>
+                      <strong data-i18n="skill.professional.title">Professional & business writing</strong>
+                      <p class="lead" data-i18n="skill.professional.lead">Business-oriented writing including reports, proposals, white papers and executive summaries focused on clarity and impact.</p>
+                  </li>
+                  <li>
+                      <strong data-i18n="skill.translation.title">Translation</strong>
+                      <p class="lead" data-i18n="skill.translation.lead">Human translation with attention to nuance and localization, ensuring meaning, tone and context are preserved across languages.</p>
+                  </li>
+                  <li>
+                      <strong data-i18n="skill.copywriting.title">Copywriting</strong>
+                      <p class="lead" data-i18n="skill.copywriting.lead">Persuasive marketing copy and CTAs that drive conversions and communicate value across channels.</p>
+                  </li>
+              </ul>
+          </div>
+
+          <div class="card">
+              <h2 data-i18n="categories.title">Categories</h2>
+              <ul>
+                  <li>
+                      <strong data-i18n="category.business.title">Business</strong>
+                      <p class="lead" data-i18n="category.business.lead">Content focused on corporate communications, strategy, case studies and B2B messaging tailored to professional audiences.</p>
+                  </li>
+                  <li>
+                      <strong data-i18n="category.economics.title">Economics</strong>
+                      <p class="lead" data-i18n="category.economics.lead">Analysis, summaries and accessible explanations of economic topics, policies and market trends for informed readers.</p>
+                  </li>
+                  <li>
+                      <strong data-i18n="category.marketing.title">Marketing</strong>
+                      <p class="lead" data-i18n="category.marketing.lead">Marketing-focused content including campaign copy, content strategies, audience segmentation and SEO-aware writing.</p>
+                  </li>
+                  <li>
+                      <strong data-i18n="category.literature.title">Literature</strong>
+                      <p class="lead" data-i18n="category.literature.lead">Narrative and creative writing, literary summaries and edits, plus thoughtful adaptations for varied readerships.</p>
+                  </li>
+              </ul>
+          </div>
+      </section>
+
+    <section id="contact" style="margin-top:1.25rem">
+      <h2 data-i18n="contact.title">Contact</h2>
+      <p class="lead" data-i18n="contact.email">Email: <a href="mailto:mo2yadn9erat@gmail.com">mo2yadn9erat@gmail.com</a></p>
+      <p class="lead" data-i18n="contact.phone">Phone: <a href="tel:+962786503418">+962786503418</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <small>© smartBook — Writer & Translator.</small>
+    </div>
+  </footer>
+
+  <script src="scripts\services.js"></script>
+</body>
+</html>
