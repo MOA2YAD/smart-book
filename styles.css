@@ -178,6 +178,10 @@ h1, h2, h3, section[id] {
       padding: .75rem;
 
   }
+  main {
+      padding-top: 200px;
+  }
+
   .hero h1 {
       font-size: 1.75rem;
 
@@ -219,6 +223,10 @@ h1, h2, h3, section[id] {
       font-size: 1.5rem;
 
   }
+  main {
+      padding-top: 240px;
+  }
+
   .hero .vision {
       font-size: 1.05rem;
 
@@ -247,6 +255,10 @@ h1, h2, h3, section[id] {
       padding: .5rem;
 
   }
+    main {
+      padding-top: 280px;
+  }
+
   .hero {
       padding: 2rem 0;
 
