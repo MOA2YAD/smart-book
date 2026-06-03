@@ -173,13 +173,16 @@ h1, h2, h3, section[id] {
 }
 
 @media (max-width: 992px) and (min-width: 769px){
+  header {
+    height : 120px
+  }
   .container {
       max-width: 720px;
       padding: .75rem;
 
   }
   main {
-      padding-top: 300px;
+      padding-top: 240px;
   }
 
   .hero h1 {
@@ -214,17 +217,19 @@ h1, h2, h3, section[id] {
 
 @media (max-width: 768px) and (min-width: 481px){
   .container {
-      max-width:
-          540px;
+      max-width: 540px;
       padding: .5rem;
 
+  }
+    header {
+    height : 160px
   }
   .hero h1 {
       font-size: 1.5rem;
 
   }
   main {
-      padding-top: 380px;
+      padding-top: 320px;
   }
 
   .hero .vision {
@@ -255,8 +260,11 @@ h1, h2, h3, section[id] {
       padding: .5rem;
 
   }
+  header {
+    height : 190px
+  }
     main {
-      padding-top: 500px;
+      padding-top: 380px;
   }
 
   .hero {
