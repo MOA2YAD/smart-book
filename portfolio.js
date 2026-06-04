@@ -7744,6 +7744,7 @@ const addExampleButtons = () => {
 };
 
 const mainHeader = document.getElementById('main-header');
+const modalHeader = document.getElementById('example-modal-header')
 const modal = document.getElementById('example-modal');
 const modalTitle = document.getElementById('example-modal-title');
 const modalBody = document.getElementById('example-modal-body');
@@ -7757,6 +7758,8 @@ const openExampleModal = (key) => {
   modalTitle.textContent = data.title || '';
   modalBody.innerHTML = data.body || '';
   modal.classList.add('open');
+  modalHeader.style.marginBottom = '12px'
+  modalBody.style.marginTop = '12px'
   mainHeader.setAttribute('aria-hidden', 'true')
   mainHeader.style.display = 'none';
   modal.setAttribute('aria-hidden', 'false');
