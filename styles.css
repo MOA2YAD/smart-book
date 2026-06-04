@@ -174,7 +174,7 @@ h1, h2, h3, section[id] {
 
 @media (max-width: 992px) and (min-width: 769px){
   header {
-    height : 120px
+    max-height : 120px
   }
   .container {
       max-width: 720px;
@@ -222,7 +222,7 @@ h1, h2, h3, section[id] {
 
   }
     header {
-    height : 160px
+    max-height : 160px
   }
   .hero h1 {
       font-size: 1.5rem;
@@ -261,7 +261,7 @@ h1, h2, h3, section[id] {
 
   }
   header {
-    height : 190px
+    max-height : 190px
   }
     main {
       padding-top: 380px;
